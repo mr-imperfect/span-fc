@@ -19,11 +19,10 @@ class Home extends Component{
                                 <label htmlFor="">Username</label>
                             </div>
                             <div className="input-group">
-                      
-
-                                <input type="password" required />
+                                <input type="password" required/>
                                 < br/>
                                 <label htmlFor="">Password</label>
+                                </div>
                                 <div className="button">
                                     <button>Sign Up</button>
                                 </div>
@@ -35,7 +34,7 @@ class Home extends Component{
                                 </div>
 
 
-                            </div>
+                            
                         </form>
                     </div>
                 </div>
