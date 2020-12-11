@@ -2,7 +2,7 @@
   "name": "span_gym",
   "version": "0.1.0",
   "private": true,
-  "homepage":"http://mr-imperfect.github.io/span-fc.git",
+  "homepage":"http://mr-imperfect.github.io/span-fc",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
