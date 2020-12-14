@@ -1,18 +1,18 @@
 import React,{Component} from 'react'
 import './Home.css'
 
-import Axios from 'axios';      
+// import Axios from 'axios';      
 
 class Home extends Component{
    
-    componentDidMount(){
-        // let user=req.body.username
-        Axios.post("http://localhost:3001/submit").then( resp =>{    
-             console.log(resp);
+    // componentDidMount(){
+    //     // let user=req.body.username
+    //     Axios.post("http://localhost:3001/submit").then( resp =>{    
+    //          console.log(resp);
         
         
-     })
-    }
+    //  })
+    // }
    
     render(){
         return(
