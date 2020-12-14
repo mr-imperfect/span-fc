@@ -1,11 +1,24 @@
 import React,{Component} from 'react'
 import './Header.css'
-
+import {Link} from 'react-router-dom'
 class Header extends Component{
+
+    state={
+        value:false
+    }
+    onHide=()=>{
+        this.setState({value:!this.state.value})
+
+
+        
+    }
   
     render(){
+      
         return(
+            
             <header>
+              
                 <div className="container">
                     <div className="logo">
                         <a href="">Logo</a>
@@ -17,19 +30,16 @@ class Header extends Component{
                         <h4>FITNESS CARE</h4>
                     </div>
                     <nav>
-                        <div className="ham"><i class="fas fa-bars"></i></div>
-                        <a href="">Home</a>
-                        <a href="">Services</a>
-                        <a href="">Our Branches</a>
+                        <div className="ham"><i className="fas fa-bars" onClick={this.onHide}></i></div>
+                       <div className= {`${this.state.value ? 'show' : 'hide'}`}>
+                       <div className="home"> <Link to="/" onClick={this.onHide}>Home</Link></div>
+                       <div className="services"><Link to="/service" onClick={this.onHide}>Our Services</Link>
+</div>
+                       </div>
+                       
                         
                     </nav>
                     <div className="res">
-                <nav>
-                        <a href="">Home</a>
-                        <a href="">Services</a>
-                        <a href="">Our Branches</a>
-                        
-                    </nav>
 
                 </div>
                 </div>
@@ -38,5 +48,4 @@ class Header extends Component{
         )
     }
 }
-
 export default Header;

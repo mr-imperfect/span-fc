@@ -139,6 +139,7 @@ button:hover{
     /* background-color: red; */
     overflow-x: hidden;
     position: relative;
+   scroll-behavior: unset;
 }
 section .container .left{
     width: 300px;
