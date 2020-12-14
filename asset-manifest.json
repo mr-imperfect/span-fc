@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/span-fc/static/css/main.b25bae3c.chunk.css",
-    "main.js": "/span-fc/static/js/main.2c10e3d2.chunk.js",
-    "main.js.map": "/span-fc/static/js/main.2c10e3d2.chunk.js.map",
+    "main.css": "/span-fc/static/css/main.e61777ad.chunk.css",
+    "main.js": "/span-fc/static/js/main.747b6eaf.chunk.js",
+    "main.js.map": "/span-fc/static/js/main.747b6eaf.chunk.js.map",
     "runtime-main.js": "/span-fc/static/js/runtime-main.1e7a3be3.js",
     "runtime-main.js.map": "/span-fc/static/js/runtime-main.1e7a3be3.js.map",
-    "static/js/2.8175eba2.chunk.js": "/span-fc/static/js/2.8175eba2.chunk.js",
-    "static/js/2.8175eba2.chunk.js.map": "/span-fc/static/js/2.8175eba2.chunk.js.map",
+    "static/js/2.d337015a.chunk.js": "/span-fc/static/js/2.d337015a.chunk.js",
+    "static/js/2.d337015a.chunk.js.map": "/span-fc/static/js/2.d337015a.chunk.js.map",
     "index.html": "/span-fc/index.html",
-    "static/css/main.b25bae3c.chunk.css.map": "/span-fc/static/css/main.b25bae3c.chunk.css.map",
-    "static/js/2.8175eba2.chunk.js.LICENSE.txt": "/span-fc/static/js/2.8175eba2.chunk.js.LICENSE.txt",
+    "static/css/main.e61777ad.chunk.css.map": "/span-fc/static/css/main.e61777ad.chunk.css.map",
+    "static/js/2.d337015a.chunk.js.LICENSE.txt": "/span-fc/static/js/2.d337015a.chunk.js.LICENSE.txt",
     "static/media/App.css": "/span-fc/static/media/charles-gaudreault-xXofYCc3hqc-unsplash.d23dba96.jpg",
     "static/media/Service.css": "/span-fc/static/media/damir-spanic-22L7do1cOho-unsplash.eed9ea4a.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1e7a3be3.js",
-    "static/js/2.8175eba2.chunk.js",
-    "static/css/main.b25bae3c.chunk.css",
-    "static/js/main.2c10e3d2.chunk.js"
+    "static/js/2.d337015a.chunk.js",
+    "static/css/main.e61777ad.chunk.css",
+    "static/js/main.747b6eaf.chunk.js"
   ]
 }
